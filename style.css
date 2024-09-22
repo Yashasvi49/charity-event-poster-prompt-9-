@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body {
+    height: 100%;
+    width: 100%;
+}
+main {
+    height: 100vh;
+    width: 48vw;
+    /* background-color: rgb(199, 247, 199); */
+    margin: auto;
+    border: 2px solid black;
+    /* background-image: url("https://images.unsplash.com/photo-1621795165885-230c2b1aebbd?q=80&w=1870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center; */
+    font-family: montserrat;
+    position: relative;
+}
+main h1 {
+color: white ;
+background-color: black;
+font-size: 30px;
+display: inline-block;
+margin-top: 3rem;
+margin-left: 4.9rem;
+}
+.overlay img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+position: absolute;
+filter: contrast(2.5);
+
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    color: rgb(211, 204, 3, 1);  (0, 0, 0, 1);
+    /* position: relative; */
+    /* position: absolute; */
+    /* z-index : 1; */
+    background-color:rgb(211, 204, 3, 0.85) ;
+    }
+.section1 {
+height: 72%;
+width: 70%;
+/* background-color: aqua; */
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translate(21% ,6%);
+position: relative;
+z-index: 10;
+/* transform: translateY(10%); */
+
+}
+/* layer1 */
+.section1 .img6{
+    height: 100%;
+    width: 3.3rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+
+}
+/* layer2 */
+
+.section1 .img5{
+    height: 90%;
+    width: 3rem;
+    background-color: blue;
+    background-image: url("");
+ background-size: cover;
+ background-position: center;
+}
+.section1 .img7{
+    height: 90%;
+    width: 3rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+}
+/* layer2 */
+
+.section1 .img4{
+    height: 80%;
+    width: 2.9rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+}
+.section1 .img8{
+    height: 80%;
+    width: 2.9rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+}
+/* layer3 */
+
+.section1 .img3{
+    height: 63%;
+    width: 2.8rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: 22%;
+    
+}
+.section1 .img9{
+    height: 63%;
+    width: 2.8rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+   
+}
+/* layer4 */
+
+.section1 .img2{
+    height: 40%;
+    width: 2.7rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+
+}.section1 .img10{
+    height: 40%;
+    width: 2.7rem;
+    background-color: blue;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+}
+/* layer5 */
+
+.section1 .img1{
+    height: 15%;
+    width: 3rem;
+    background-color: black;
+
+}
+.section1 .img11{
+    height: 15%;
+    width: 3rem;
+    background-color: black;
+
+}
+.section2 {
+    height: 3rem;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.section2 >div p {
+    /* background-color: blueviolet; */
+    text-align: right;
+    font-size: 14px;
+    margin-top: 7px;
+    color: black;
+    font-weight: 500;
+}
+.section2 >div h3{
+    text-align: right;
+    color: black;
+
+}
+.section2 button {
+    color: white;
+    background-color: black;
+
+padding: 8px 25px;
+border-radius: 12px;
+font-size: 20px;
+}
+
